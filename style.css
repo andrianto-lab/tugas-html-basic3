@@ -6,7 +6,9 @@
 }
 
 body {
-  background: #f5f7fb;
+  width: 80%;
+  margin: auto;
+  background: rgb(229, 234, 221);
   color: #333;
 }
 
@@ -17,6 +19,12 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
+}
+
+.logo {
+  background: linear-gradient(90deg, #0528c1, #ab8a98);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 img {
@@ -30,4 +38,110 @@ img {
     display: flex;
     gap: 10px;
     align-items: center;
+}
+
+.deskripsi {
+  border: 2px solid;
+  text-align: center;
+  padding: 20px;
+  height: 150px;
+  background: linear-gradient(135deg, #97cc8c, #7c943a);
+  color: white;
+  border-radius: 10px;
+  box-shadow:rgba(0, 0, 0, 0.1);
+}
+
+.isi {
+  margin-top: 15px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.categories {
+  display: flex;
+  justify-content: space-around;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.categories button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 10px;
+  background:whitesmoke;
+  cursor: pointer;
+}
+
+.card {
+  background: linear-gradient(90deg, #f3f5f3, #f0f0f3);
+  font-size: 10px;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  margin-top: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card button{
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(212, 212, 221)
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.2);
+}
+
+.info {
+ margin-top: 40px;
+  color: white;
+  padding: 30px;
+  border-radius: 10px;
+  background-color:  rgb(109, 161, 27);
+}
+
+.info input {
+ padding: 10px;
+  width: 70%;
+  max-width: 300px;
+}
+
+.info button{
+  padding: 10px 20px;
+  margin-left: 10px;
+  border: none;
+  background: #91f633;
+  cursor: pointer;
+}
+
+.info a{
+  color: white;
+  text-decoration: none;
+}
+
+footer {
+  margin-top: 60px;
+  padding: 20px;
+  text-align: center;
+  background: #989797;
+  color: #fafafa;
+}
+
+footer a {
+  color: #fafafa ;
 }
