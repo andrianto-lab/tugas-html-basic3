@@ -15,7 +15,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 30%;
-    max-width: 400px; /* supaya responsive */
+    max-width: 400px;
     border: 1px solid #ccc;
     padding: 20px;
     border-radius: 10px;
@@ -100,11 +100,11 @@ p a:hover {
     text-decoration: underline;
 }
 
-/* Responsive untuk HP */
+
 @media (max-width: 480px) {
     .login-container {
         width: 95%;
-        min-width: unset;   /* MATIKAN MIN 400 */
+        min-width: unset;
         padding: 15px;
     }
 }
