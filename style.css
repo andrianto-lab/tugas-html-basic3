@@ -159,3 +159,60 @@ footer {
 footer a {
   color: #fafafa ;
 }
+
+
+@media (max-width: 768px) {
+
+  body {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .nama {
+    justify-content: center;
+  }
+
+  .deskripsi {
+    height: auto;
+    padding: 15px;
+  }
+
+  .categories {
+    justify-content: center;
+  }
+
+  .categories button {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .card-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+    max-width: 350px;
+    height: auto;
+  }
+
+  .card h1 {
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+
+  .info input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .info button {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  footer {
+    font-size: 14px;
+  }
+}
